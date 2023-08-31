@@ -69,7 +69,7 @@ reactive <- function(){
 
 png(filename = "plot4.png", width = 480, height = 480)
 
-par(mfrow = c(2,2), mar=c(5,2,1,2), cex = .8)
+par(mfrow = c(2,2), mar=c(5,4,1,2), cex = .8)
 
 globalActivePower()
 voltage()
